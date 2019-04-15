@@ -27,7 +27,7 @@ class ArticleList extends Component{
   render() {
     const { list, total, title,  loadingMoreArticle} = this.props;
     const loadMore =
-      total > parseInt(this.size, 10) ? (
+      total > parseInt(this.size, 10) && list.length < total ? (
         <div style={{ textAlign: 'center', marginTop: 16 }}>
           <Button
             onClick={loadingMoreArticle}
