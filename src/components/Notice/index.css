@@ -1,0 +1,10 @@
+.popover {
+  position: relative;
+  width: 336px;
+}
+
+.tabContent {
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}

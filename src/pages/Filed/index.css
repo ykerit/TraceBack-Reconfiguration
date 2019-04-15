@@ -1,0 +1,18 @@
+.content {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.timeLine {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card {
+  width: 100%;
+  line-height: 22px;
+}
+.empty {
+  margin-top: 22px;
+}

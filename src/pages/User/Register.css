@@ -1,0 +1,41 @@
+.main {
+  width: 388px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    width: 95%;
+  }
+}
+.login {
+ float: right;
+}
+.submit {
+  width: 50%;
+}
+
+.success,
+.warning,
+.error {
+  transition: color 0.3s;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: darkorange;
+}
+
+.error {
+  color: red;
+}
+.progress {
+
+}
+.progress-pass{
+}
+
+

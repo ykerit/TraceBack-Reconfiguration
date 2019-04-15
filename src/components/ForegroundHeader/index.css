@@ -1,0 +1,11 @@
+.header {
+  background-color: #fff;
+  padding: 0;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+
+.dropDown {
+  margin-right: 15px;
+  cursor: pointer;
+}

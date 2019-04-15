@@ -1,0 +1,16 @@
+.content{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: -webkit-flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .content{
+    width: 100%;
+    padding: 0%;
+  }
+}
+

@@ -1,0 +1,10 @@
+.main {
+  width: 388px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  w.main {
+    width: 95%;
+  }
+}

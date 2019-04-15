@@ -1,0 +1,28 @@
+.container {
+  margin-top: 5px;
+  display: -webkit-flex;
+  justify-content: center;
+  height: 85vh;
+}
+@media (min-width: 768px) {
+  .container {
+    background-image: url('https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg');
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+  }
+}
+
+.content {
+  width: 60%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 95%;
+    height: 100%;
+    background-color: #ffffff;
+  }
+}

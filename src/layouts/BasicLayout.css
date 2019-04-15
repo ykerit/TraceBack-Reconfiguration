@@ -1,0 +1,14 @@
+.layout{
+  min-height: 100vh;
+}
+
+.content{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+}
+
+.footer{
+  text-align: center;
+}
